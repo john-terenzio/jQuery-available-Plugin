@@ -1,0 +1,3 @@
+The jQuery available method provides a faster alternative to using $(document).ready() when you need to manipulate elements the instant they become available (before the DOM is even fully loaded). This is useful if you want to avoid DOM flicker (when you modify something but you see the old version until the ready event fires), especially if your document contains a lot of nodes or resources. Using $.available(), any changes you make to an element will be visible to the user the instant they are rendered in the browser.
+
+Visit the jQuery plugin page for more information: http://plugins.jquery.com/project/available
